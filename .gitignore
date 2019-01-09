@@ -2,4 +2,4 @@
 pkg
 src
 .env
-var
+var/*
