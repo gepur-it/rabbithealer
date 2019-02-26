@@ -2,4 +2,5 @@
 pkg
 src
 .env
-var/*
+var/
+!var/.gitkeep

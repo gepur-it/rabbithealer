@@ -53,7 +53,7 @@ func main() {
 		failOnError(err, "Failed to create log file")
 	}
 
-	f, err = os.OpenFile(fmt.Sprintf("%s.%s", query, "log"), os.O_APPEND|os.O_WRONLY, 0600)
+	f, err = os.OpenFile(fmt.Sprintf("var/%s.%s", query, "log"), os.O_APPEND|os.O_WRONLY, 0600)
 
 	if err != nil {
 		failOnError(err, "Failed to open log file")
